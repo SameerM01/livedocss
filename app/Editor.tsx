@@ -18,7 +18,7 @@ export function Editor() {
     namespace: "Demo",
     onError: (error: unknown) => {
       console.error(error);
-      throw error;
+      throw error; 
     },
   });
 
